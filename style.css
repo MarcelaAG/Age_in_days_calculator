@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Jua', sans-serif;
+   
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    max-width: 90%;
+    margin: 0, auto; /*centers the container */
+    justify-content: space-around; /*centers whats in the container*/
+    align-items: center;
+    height: 100vh;
+    background-color: red;
+    background-image: url(clocks.jpg);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+    color: white;
+    padding:1em;
+
+
+}
+h1{
+    margin: 0;
+    font-size: 5rem;
+}
+button,
+input {
+    border: none;
+    padding: 1em 2em;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Jua', sans-serif;
+    font-size: 1rem;
+}
+button:focus,
+button:hover{
+   background-color: wheat;
+} 
+#daysOld,
+label{
+    font-size: 2rem;
+}
